@@ -28,7 +28,24 @@ Kemudian mengunjungi basic.ichimarumaru.tech dan memasukkan credential, kemudian
 ![description]('/img/image7.png')
 
 ## 4. Temukan paket mysql yang mengandung perintah query select!
+
+Melakukan display filter `mysql contains "select" || mysql contains "SELECT"`.
+
+![description]('/img/image7.png')
+
 ## 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+Melakukan display filter `mysql contains "insert" || mysql contains "INSERT"`.
+
+![description]('/img/image28.png')
+
+Kemudian Follow TCP Stream, didapat username dan passwordnya. 
+
+![description]('/img/image23.png')
+
+Kemudian login ke portal.ichimarumaru.tech dan jalankan misi.
+
+![description]('/img/image10.png')
+
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
 ## 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
