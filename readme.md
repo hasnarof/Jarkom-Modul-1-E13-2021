@@ -18,7 +18,16 @@
 ## 9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 ## 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+a.  Menggunakan `src port 80` pada capture filter
+![11a](https://image.prntscr.com/image/cHvNUb_ORc-fdr2SAhEjIg.png)
+b.  Membuka [monta.if.its.ac.id](monta.if.its.ac.id) untuk mendapatkan packet yang berasal dari port 80
+![11b](https://image.prntscr.com/image/50QLTsFIQSyDQwUN4LIjoA.png)
+
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+a.  Menggunakan `port 20` pada capture filter
+![12a](https://image.prntscr.com/image/hScRihDZRIaNd1F95DrMug.png)
+b.  Membuka (ftp://ftp.adobe.com)[ftp://ftp.adobe.com] untuk mendapatkan packet yang mengandung port 20
+![12b](https://image.prntscr.com/image/jToS3jsMStCdU67A_sh2Lg.png)
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
