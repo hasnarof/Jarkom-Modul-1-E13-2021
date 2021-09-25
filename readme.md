@@ -22,3 +22,5 @@
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+## Kendala dalam Pengerjaan
