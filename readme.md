@@ -82,7 +82,7 @@ Kemudian Follow TCP Stream -> Show data as raw -> Save as secret.zip.
 
 
 ## 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
-Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari paket itu didapat info ada file **bukanapaapa.txt**, cari file dengan `ftp-data.command contains "bukanapaapa.txt"`. Kemudian Follow -> TCP Stream, didapat sebuah teks password, Kemudian `d1b1langbukanapaapajugagapercaya`. Masukkan password untuk mengextract **secret.zip**.
+Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari paket itu didapat info ada file **bukanapaapa.txt**, cari file dengan `ftp-data.command contains "bukanapaapa.txt"`. Kemudian Follow -> TCP Stream, didapat sebuah teks password, `d1b1langbukanapaapajugagapercaya`. Masukkan password untuk mengextract **secret.zip**.
 
 
 ![description](img/image12.png)
@@ -90,6 +90,8 @@ Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari pa
 ![description](img/image14.png)
 
 ![description](img/image21.png)
+
+![description](img/image2.png)
 
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 a.  Menggunakan `src port 80` pada capture filter
