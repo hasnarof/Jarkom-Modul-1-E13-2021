@@ -47,6 +47,11 @@ Kemudian login ke portal.ichimarumaru.tech dan jalankan misi.
 ![description]('/img/image10.png')
 
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
+
+Melakukan display filter `ftp.request.command == USER || ftp.request.command == PASS`. Kemudian didapat username dan passwordnya.
+
+![description]('/img/image29.png')
+
 ## 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 ## 9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
