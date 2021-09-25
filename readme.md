@@ -112,12 +112,15 @@ b.  Membuka [https://www.its.ac.id](https://www.its.ac.id) untuk mendapatkan pac
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 a.  Menggunakan `dst host kemenag.go.id` pada capture filter
 ![14a](https://image.prntscr.com/image/sJaCWKiqRbefnQYKRQChGA.png)
-b.  Membuka [kemenag.go.id](https://kemenag.go.id) untuk mendapatkan packet 
-![14b]()
+b.  Membuka [kemenag.go.id](https://kemenag.go.id) untuk mendapatkan packet yang tujuannya ke [kemenag.go.id](kemenag.go.id)
+![14b](https://image.prntscr.com/image/HBp8xUqITiCdp3g69ZZ0Wg.png)
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
-a.  Menggunakan `` pada capture filter
-![15a]()
-b.  Membuka  untuk mendapatkan packet 
-![15b]()
+a.  Menggunakan `ipconfig` pada cmd untuk mendapatkan ip kita
+![15a](https://image.prntscr.com/image/YxJkY4GZRrOeWe2mCUYJ8Q.png)
+b.  Menggunakan `src host 192.168.1.5` pada capture filter 
+![15b](https://image.prntscr.com/image/hcvu0NeMRs-1ZJ6QKpgxjA.png)
+c. Membuka sembarang website untuk mengambil paket yang berasal dari ip tersebut
+![15c](https://image.prntscr.com/image/UAA2RWBiQAGw1w6HW2aWXA.png)
+
 
 ## Kendala dalam Pengerjaan
