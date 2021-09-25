@@ -2,7 +2,9 @@
 
 ## Anggota Kelompok E13
 05111940000090	Ihsannur Rahman Qalbi
+
 05111940000003	Fairuz Hasna Rofifah
+
 05111940000164	Ahmad Aunul Ma`bud
 
 ## 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
@@ -14,14 +16,14 @@ Melakukan display filter `http.host contains "ichimarumaru.tech"`. Kemudian Foll
 
 Didapat server: nginx/1.18.0 (Ubuntu)
 ## 2. Temukan paket dari web-web yang menggunakan basic authentication method!
-Melakukan display filter `http.authbasic`, kemudian didapat website-website yang memakai authentication basic.
+Melakukan display filter `http.authbasic`, kemudian didapat paket-paket yang memakai authentication basic.
 
 ![description](img/image25.png)
 
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 Melakukan display filter `http.host contains "basic.ichimarumaru.tech"`. Kemudian mencari paket yang memiliki authorization, kemudian didapat credentialnya adalah `kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
 
-![description](img/Capture.png)
+![description](img/Capture.PNG)
 
 Kemudian mengunjungi basic.ichimarumaru.tech dan memasukkan credential, kemudian menyelesaikan misi pada web tersebut.
 
@@ -31,7 +33,7 @@ Kemudian mengunjungi basic.ichimarumaru.tech dan memasukkan credential, kemudian
 
 Melakukan display filter `mysql contains "select" || mysql contains "SELECT"`.
 
-![description](img/image7.png)
+![description](img/image22.png)
 
 ## 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 Melakukan display filter `mysql contains "insert" || mysql contains "INSERT"`.
