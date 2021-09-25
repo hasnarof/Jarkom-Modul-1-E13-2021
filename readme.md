@@ -95,31 +95,54 @@ Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari pa
 
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 a.  Menggunakan `src port 80` pada capture filter
+
 ![11a](https://image.prntscr.com/image/cHvNUb_ORc-fdr2SAhEjIg.png)
+
 b.  Membuka [monta.if.its.ac.id](monta.if.its.ac.id) untuk mendapatkan packet yang berasal dari port 80
+
 ![11b](https://image.prntscr.com/image/50QLTsFIQSyDQwUN4LIjoA.png)
 
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 a.  Menggunakan `port 21` pada capture filter
+
 ![12a](https://image.prntscr.com/image/K9ekrguLTfiFdQQjnJ0tQA.png)
-b.  Membuka `ftp://ftp.adobe.com` untuk mendapatkan packet yang mengandung port 20
+
+b.  Membuka `ftp://ftp.adobe.com` untuk mendapatkan packet yang mengandung port 21
+
 ![12b](https://image.prntscr.com/image/jToS3jsMStCdU67A_sh2Lg.png)
+
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
 a.  Menggunakan `dst port 443` pada capture filter
+
 ![13a](https://image.prntscr.com/image/hGxErsvOQVaZITF_1ikq1A.png)
+
 b.  Membuka [https://www.its.ac.id](https://www.its.ac.id) untuk mendapatkan packet yang menuju port 443
+
 ![13b](https://image.prntscr.com/image/KtkwDhoPSfSYS1hUaoTY5w.png)
+
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
 a.  Menggunakan `dst host kemenag.go.id` pada capture filter
+
 ![14a](https://image.prntscr.com/image/sJaCWKiqRbefnQYKRQChGA.png)
+
 b.  Membuka [kemenag.go.id](https://kemenag.go.id) untuk mendapatkan packet yang tujuannya ke [kemenag.go.id](kemenag.go.id)
+
 ![14b](https://image.prntscr.com/image/HBp8xUqITiCdp3g69ZZ0Wg.png)
+
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
 a.  Menggunakan `ipconfig` pada cmd untuk mendapatkan ip kita
+
 ![15a](https://image.prntscr.com/image/YxJkY4GZRrOeWe2mCUYJ8Q.png)
+
 b.  Menggunakan `src host 192.168.1.5` pada capture filter 
+
 ![15b](https://image.prntscr.com/image/hcvu0NeMRs-1ZJ6QKpgxjA.png)
+
 c. Membuka sembarang website untuk mengambil paket yang berasal dari ip tersebut
+
 ![15c](https://image.prntscr.com/image/UAA2RWBiQAGw1w6HW2aWXA.png)
 
 
