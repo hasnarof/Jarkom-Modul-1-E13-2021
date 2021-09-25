@@ -40,7 +40,7 @@ Melakukan display filter `mysql contains "insert" || mysql contains "INSERT"`.
 
 ![description](img/image28.png)
 
-Kemudian Follow TCP Stream, didapat username dan passwordnya. 
+Kemudian Follow TCP Stream, didapat username dan passwordnya, `akakanomi:pemisah4lautan`.
 
 ![description](img/image23.png)
 
@@ -50,7 +50,7 @@ Kemudian login ke portal.ichimarumaru.tech dan jalankan misi.
 
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
 
-Melakukan display filter `ftp.request.command == USER || ftp.request.command == PASS`. Kemudian didapat username dan passwordnya.
+Melakukan display filter `ftp.request.command == USER || ftp.request.command == PASS`. Kemudian didapat username dan passwordnya, `secretuser:aku.pengen.pw.aja`.
 
 ![description](img/image29.png)
 
@@ -58,11 +58,11 @@ Melakukan display filter `ftp.request.command == USER || ftp.request.command == 
 
 Melakukan display filter `ftp-data contains "Real.pdf"`.
 
-![description](img/Capture2.png)
+![description](img/Capture2.PNG)
 
 Kemudian follow -> TCP Stream -> show data as raw -> save as “Real.pdf”
 
-![description](img/Capture3.png)
+![description](img/Capture3.PNG)
 
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
@@ -72,7 +72,27 @@ Melakukan display filter `ftp.request.command == STOR`.
 
 
 ## 9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
+Melakukan display filter `ftp-data.command contains "secret.zip"`.
+
+![description](img/image18.png)
+
+Kemudian Follow TCP Stream -> Show data as raw -> Save as secret.zip.
+
+![description](img/image27.png)
+
+
 ## 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
+Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari paket itu didapat info ada file **bukanapaapa.txt**, cari file dengan `ftp-data.command contains "bukanapaapa.txt"`. Kemudian Follow -> TCP Stream, didapat sebuah teks password, `d1b1langbukanapaapajugagapercaya`. Masukkan password untuk mengextract **secret.zip**.
+
+
+![description](img/image12.png)
+
+![description](img/image14.png)
+
+![description](img/image21.png)
+
+![description](img/image2.png)
+
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 a.  Menggunakan `src port 80` pada capture filter
 ![11a](https://image.prntscr.com/image/cHvNUb_ORc-fdr2SAhEjIg.png)
