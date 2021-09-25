@@ -6,7 +6,13 @@
 05111940000164	Ahmad Aunul Ma`bud
 
 ## 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
+Melakukan display filter `http.host contains "ichimarumaru.tech"`. Kemudian Follow TCP Stream, didapat:
 
+![description]('/img/image9.png')
+
+![description]('/img/image19.png')
+
+Didapat server: nginx/1.18.0 (Ubuntu)
 ## 2. Temukan paket dari web-web yang menggunakan basic authentication method!
 
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
