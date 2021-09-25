@@ -96,7 +96,7 @@ Melakukan display filter `ftp-data.command contains "history"`. Kemudian dari pa
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 a.  Menggunakan `src port 80` pada capture filter
 
-![11a](https://image.prntscr.com/image/cHvNUb_ORc-fdr2SAhEjIg.png)
+![11a](https://image.prntscr.com/image/0y30lT9dQpOXDHXNKn0szw.png)
 
 b.  Membuka [monta.if.its.ac.id](monta.if.its.ac.id) untuk mendapatkan packet yang berasal dari port 80
 
@@ -115,7 +115,7 @@ b.  Membuka `ftp://ftp.adobe.com` untuk mendapatkan packet yang mengandung port 
 
 a.  Menggunakan `dst port 443` pada capture filter
 
-![13a](https://image.prntscr.com/image/hGxErsvOQVaZITF_1ikq1A.png)
+![13a](https://image.prntscr.com/image/MK9mS587QFSnewgPMWdUkA.png)
 
 b.  Membuka [https://www.its.ac.id](https://www.its.ac.id) untuk mendapatkan packet yang menuju port 443
 
