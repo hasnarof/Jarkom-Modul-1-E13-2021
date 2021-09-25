@@ -124,3 +124,8 @@ c. Membuka sembarang website untuk mengambil paket yang berasal dari ip tersebut
 
 
 ## Kendala dalam Pengerjaan
+Kendala saat mengerjakan nomor 7, terjebak mendownload pdf yang lain. Karena display filter kurang tepat.
+
+![description](img/image8.png)
+
+![description](img/image24.png)
