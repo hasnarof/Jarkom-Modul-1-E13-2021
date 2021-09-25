@@ -40,7 +40,7 @@ Melakukan display filter `mysql contains "insert" || mysql contains "INSERT"`.
 
 ![description](img/image28.png)
 
-Kemudian Follow TCP Stream, didapat username dan passwordnya. 
+Kemudian Follow TCP Stream, didapat username dan passwordnya, `akakanomi:pemisah4lautan`.
 
 ![description](img/image23.png)
 
@@ -50,7 +50,7 @@ Kemudian login ke portal.ichimarumaru.tech dan jalankan misi.
 
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
 
-Melakukan display filter `ftp.request.command == USER || ftp.request.command == PASS`. Kemudian didapat username dan passwordnya.
+Melakukan display filter `ftp.request.command == USER || ftp.request.command == PASS`. Kemudian didapat username dan passwordnya, `secretuser:aku.pengen.pw.aja`.
 
 ![description](img/image29.png)
 
@@ -58,11 +58,11 @@ Melakukan display filter `ftp.request.command == USER || ftp.request.command == 
 
 Melakukan display filter `ftp-data contains "Real.pdf"`.
 
-![description](img/Capture2.png)
+![description](img/Capture2.PNG)
 
 Kemudian follow -> TCP Stream -> show data as raw -> save as “Real.pdf”
 
-![description](img/Capture3.png)
+![description](img/Capture3.PNG)
 
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
