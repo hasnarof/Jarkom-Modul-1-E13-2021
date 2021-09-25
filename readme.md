@@ -14,6 +14,9 @@ Melakukan display filter `http.host contains "ichimarumaru.tech"`. Kemudian Foll
 
 Didapat server: nginx/1.18.0 (Ubuntu)
 ## 2. Temukan paket dari web-web yang menggunakan basic authentication method!
+Melakukan display filter `http.authbasic`, kemudian didapat website-website yang memakai authentication basic.
+
+![description]('/img/image25.png')
 
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 ## 4. Temukan paket mysql yang mengandung perintah query select!
