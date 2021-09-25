@@ -111,6 +111,25 @@ b.  Membuka `ftp://ftp.adobe.com` untuk mendapatkan packet yang mengandung port 
 
 ![12b](https://image.prntscr.com/image/jToS3jsMStCdU67A_sh2Lg.png)
 
+## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+a.  Menggunakan `dst port 443` pada capture filter
+
+![13a](https://image.prntscr.com/image/hGxErsvOQVaZITF_1ikq1A.png)
+
+b.  Membuka [https://www.its.ac.id](https://www.its.ac.id) untuk mendapatkan packet yang menuju port 443
+
+![13b](https://image.prntscr.com/image/KtkwDhoPSfSYS1hUaoTY5w.png)
+
+## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+
+a.  Menggunakan `dst host kemenag.go.id` pada capture filter
+
+![14a](https://image.prntscr.com/image/sJaCWKiqRbefnQYKRQChGA.png)
+
+b.  Membuka [kemenag.go.id](https://kemenag.go.id) untuk mendapatkan packet yang tujuannya ke [kemenag.go.id](kemenag.go.id)
+
+![14b](https://image.prntscr.com/image/HBp8xUqITiCdp3g69ZZ0Wg.png)
 
 
 
