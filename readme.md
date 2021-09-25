@@ -53,7 +53,22 @@ Melakukan display filter `ftp.request.command == USER || ftp.request.command == 
 ![description]('/img/image29.png')
 
 ## 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+Melakukan display filter `ftp-data contains "Real.pdf"`.
+
+![description]('/img/Capture2.PNG')
+
+Kemudian follow -> TCP Stream -> show data as raw -> save as “Real.pdf”
+
+![description]('/img/Capture3.PNG')
+
 ## 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+
+Melakukan display filter `ftp.request.command == STOR`.
+
+![description]('/img/image11.png')
+
+
 ## 9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 ## 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
