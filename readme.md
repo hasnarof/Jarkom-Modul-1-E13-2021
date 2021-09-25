@@ -19,6 +19,14 @@ Melakukan display filter `http.authbasic`, kemudian didapat website-website yang
 ![description]('/img/image25.png')
 
 ## 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+Melakukan display filter `http.host contains "basic.ichimarumaru.tech"`. Kemudian mencari paket yang memiliki authorization, kemudian didapat credentialnya adalah `kuncimenujulautan:tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN`
+
+![description]('/img/Capture.PNG')
+
+Kemudian mengunjungi basic.ichimarumaru.tech dan memasukkan credential, kemudian menyelesaikan misi pada web tersebut.
+
+![description]('/img/image7.png')
+
 ## 4. Temukan paket mysql yang mengandung perintah query select!
 ## 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 ## 6. Cari username dan password ketika melakukan login ke FTP Server!
